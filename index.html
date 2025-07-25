@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GitHub Unfollower Viewer Script - Documentation</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Documentation for a browser script that scans a GitHub user's profile to find and display users who do not follow them back. Learn how to use the script to manage your GitHub followers."
+          name="description">
+    <meta content="github, unfollower, script, followers, following, javascript, browser script, github tools"
+          name="keywords">
+    <meta content="mustafaer" name="author">
+
+    <!-- Open Graph / Facebook -->
+    <meta content="website" property="og:type">
+    <meta content="GitHub Unfollower Viewer Script - Documentation" property="og:title">
+    <meta content="Learn how to use the GitHub Unfollower Viewer script to easily find users who don't follow you back on GitHub."
+          property="og:description">
+
+    <!-- Twitter -->
+    <meta content="summary" property="twitter:card">
+    <meta content="GitHub Unfollower Viewer Script - Documentation" property="twitter:title">
+    <meta content="Learn how to use the GitHub Unfollower Viewer script to easily find users who don't follow you back on GitHub."
+          property="twitter:description">
+
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+            background-color: #f9f9f9;
+        }
+
+        h1, h2 {
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+            color: #111;
+        }
+
+        .code-container {
+            position: relative;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 15px;
+            margin-top: 20px;
+        }
+
+        pre {
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            margin: 0;
+        }
+
+        code {
+            font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+            font-size: 14px;
+        }
+
+        #copy-btn {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            padding: 8px 12px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+        #copy-btn:hover {
+            background-color: #0056b3;
+        }
+
+        ol {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        .warning {
+            padding: 15px;
+            margin-bottom: 15px;
+            border: 1px solid transparent;
+            border-radius: 4px;
+            color: #8a6d3b;
+            background-color: #fcf8e3;
+            border-color: #faebcc;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+            font-size: 14px;
+            color: #666;
+        }
+
+        footer a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<h1>GitHub Unfollower Viewer Script</h1>
+
+<h2>Description</h2>
+<p>This is a browser script that adds a "Scan Unfollowers" button to user profile pages on GitHub. When clicked, it
+    scans the user's followers and following lists and displays a list of users who do not follow them back in a clean,
+    easy-to-read modal window.</p>
+
+<h2>How to Use</h2>
+<ol>
+    <li>
+        <strong>Navigate to GitHub:</strong> Go to any user's profile page on GitHub (e.g., <code>https://github.com/some-user</code>).
+    </li>
+    <li>
+        <strong>Open Developer Console:</strong> Open your browser's developer console. You can usually do this by
+        pressing <code>F12</code>, or right-clicking on the page and selecting "Inspect," then choosing the "Console"
+        tab.
+    </li>
+    <li>
+        <strong>Run the Script:</strong> Copy the code from the box below and paste it directly into the developer
+        console, then press <code>Enter</code>.
+    </li>
+    <li>
+        <strong>Scan for Unfollowers:</strong> A "Scan Unfollowers" button will appear on the profile page. Click it to
+        start the scan and see the results.
+    </li>
+</ol>
+
+<!-- Go to script page -->
+<a href="https://github.com" target="_blank">View the script on GitHub</a>
+
+<h3>Disclaimer</h3>
+<div class="warning">
+    <p><strong>Use this script at your own risk.</strong> Automating actions on GitHub may be against their terms of
+        service. Rapidly sending requests could lead to temporary rate-limiting or, in rare cases, account suspension.
+    </p>
+</div>
+
+<footer>
+    <p>&copy; 2024 <a href="https://mustafaer.net" target="_blank" rel="noopener noreferrer">mustafaer.net</a>. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
