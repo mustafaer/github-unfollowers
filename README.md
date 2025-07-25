@@ -10,7 +10,7 @@
 <h2>How to Use</h2>
 <ol>
     <li>
-        <strong>Navigate to GitHub:</strong> Go to any user's profile page on GitHub (e.g., <code>https://github.com/some-user</code>).
+        <strong>Navigate to GitHub:</strong> Go to any user's profile page on GitHub (e.g., <code>https://github.com/USERNAME</code>).
     </li>
     <li>
         <strong>Open Developer Console:</strong> Open your browser's developer console. You can usually do this by
@@ -28,7 +28,7 @@
 </ol>
 
 <!-- Go to script page -->
-<a href="https://github.com" target="_blank">View the script on GitHub</a>
+<a href="https://github.com/mustafaer/github-unfollowers/blob/development/github_unfollower_script.js" target="_blank">View the script on GitHub</a>
 
 <h3>Disclaimer</h3>
 <div class="warning">
