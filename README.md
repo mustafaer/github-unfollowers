@@ -38,5 +38,5 @@
 </div>
 
 <footer>
-    <p>&copy; 2024 <a href="https://mustafaer.net" target="_blank" rel="noopener noreferrer">mustafaer.net</a>. All Rights Reserved.</p>
+    <p>&copy; 2025 <a href="https://mustafaer.net" target="_blank" rel="noopener noreferrer">mustafaer.net</a>. All Rights Reserved.</p>
 </footer>
