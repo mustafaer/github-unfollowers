@@ -1,6 +1,6 @@
 
 
-<h1>GitHub Unfollower Viewer Script</h1>
+<h1>GitHub Unfollower Viewer Script | Github Unfollow Checker</h1>
 
 <h2>Description</h2>
 <p>This is a browser script that adds a "Scan Unfollowers" button to user profile pages on GitHub. When clicked, it
